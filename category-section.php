@@ -2,7 +2,7 @@
 <section class="bg-grey">
 	<div id="services" class="container-fluid text-center">
     <h1>SERVICES</h1>
-    <div class="alert alert-info">
+    <div class="alert alert-success">
       <strong>Select/Click on the school category you want...</strong>
     </div>
     <br> 
@@ -17,11 +17,11 @@
       <div class="col-sm-3">
         <div class="panel panel-success">          
           <div class="panel-heading">
-            <h3 class="panel-title"><?php echo $row['category_name']; ?></h3>
+            <h3 class="panel-title"><b><?php echo $row['category_name']; ?></b></h3>
           </div>
           <div class="panel-body">
-            <img class="img-thumbnail" src="./admin/<?php echo $row['category_image'] ?>"alt="">
-            <p> <?php echo $row['category_detail']; ?></p>          
+            <img class="img-thumbnail" style="height:150px" src="./admin/<?php echo $row['category_image'] ?>"alt="">
+            <!-- <p> <?php echo $row['category_detail']; ?></p> --> 
           </div>           
         </div>
       </div> 
