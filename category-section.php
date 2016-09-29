@@ -13,7 +13,7 @@
           while ($row = mysql_fetch_array($query)) {
           $id = $row['category_id'];
         ?>
-      <a  href="#<?php echo $id; ?>">
+      <a  href="gen_profile.php">
       <div class="col-sm-3">
         <div class="panel panel-success">          
           <div class="panel-heading">

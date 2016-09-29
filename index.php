@@ -4,6 +4,4 @@
 <?php include 'category-section.php' ?>
 <?php include 'about-login-section.php' ?>
 <?php include 'contact-section.php' ?>
-<?php include 'filter-page.php' ?>
-<?php include 'profile-page.php' ?>
 <?php include 'footer-section.php' ?>

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/digiskool.css" rel="stylesheet">
+  <link href="assets/css/gen_profile.css" rel="stylesheet">
   <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> 
 </head>
