@@ -1,5 +1,6 @@
+<?php include 'header-section.php' ?>
 <section>
-  <div class="container-fluid">
+  <div class="container-fluid bg-grey">
     <div class="row row-offcanvas row-offcanvas-left">
       <!--=============================================================================================-->
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebarLeft" role="navigation">
@@ -7,7 +8,7 @@
               <div class = "row">
                 <div class = "col-sm-12 col-md-12">
                   <a href = "#" class = "thumbnail">
-                     <img src = "./images/profile-preview.jpg"" alt = "Generic placeholder thumbnail">
+                     <img src = "./images/judy.jpg"" alt = "Generic placeholder thumbnail">
                   </a>
                 </div>
               </div>
@@ -18,7 +19,7 @@
         <!--/span-->
       <div class="col-xs-12 col-lg-9">
         <div class="" >
-          <img src="./images/cover-preview.jpg" class="image-responsive" width="99%" height="340px" alt="Responsive image">
+          <img src="./images/judy.jpg" class="image-responsive" width="99%" height="340px" alt="Responsive image">
         </div>
     <div class="jumbotron">
       <div class="row"></div>
@@ -113,3 +114,4 @@
   </div>
   <!--/.container-->
 </section>
+<?php include 'footer-section.php' ?>
