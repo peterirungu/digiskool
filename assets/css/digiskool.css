@@ -17,6 +17,33 @@ body {
       font-weight: 400;
       margin-bottom: 30px;
   }  
+  h1 {
+     overflow: hidden;
+     text-align: center;
+     font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    h1:before,
+    h1:after {
+     background-color: #ff8a00;
+     content: "";
+     display: inline-block;
+     height: 3px;
+     position: relative;
+     vertical-align: middle;
+     width: 50%;
+    }
+    h1:before {
+     right: 0.5em;
+     margin-left: -50%;
+    }
+    h1:after {
+     left: 0.5em;
+     margin-right: -50%;
+    }
   .jumbotron {
       background-color: #ff8a00;
       color: #fff;
@@ -40,7 +67,7 @@ body {
             z-index: 100;
           }*/
   .container-fluid {
-      padding: 30px 20px;
+      padding: 60px 20px;
   }
   .bg-grey {
       background-color: #f6f6f6;
@@ -83,7 +110,7 @@ body {
   .item span {
       font-style: normal;
   }
-  .panel {
+/*  .panel {
       border: 1px solid #f4511e; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
@@ -120,7 +147,7 @@ body {
       margin: 15px 0;
       background-color: #f4511e;
       color: #fff;
-  }
+  }*/
   .navbar {
       margin-bottom: 0;
       background-color:#222333;/*#f4511e */
@@ -156,6 +183,8 @@ body {
       -webkit-animation-duration: 2s;
       visibility: visible;
   }
+
+  
   @keyframes slide {
     0% {
       opacity: 0;
