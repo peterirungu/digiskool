@@ -52,6 +52,7 @@
 .nav-tabs-custom > .nav-tabs > li > a {
   color: #444;
   border-radius: 0;
+  font-weight: bold;
 }
 .nav-tabs-custom > .nav-tabs > li > a.text-muted {
   color: #999;
@@ -62,7 +63,9 @@
   margin: 0;
 }
 .nav-tabs-custom > .nav-tabs > li > a:hover {
-  color: #999;
+  color: #222333;
+  font-weight: bold;
+  background-color: #245698
 }
 .nav-tabs-custom > .nav-tabs > li:not(.active) > a:hover,
 .nav-tabs-custom > .nav-tabs > li:not(.active) > a:focus,
