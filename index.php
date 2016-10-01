@@ -5,3 +5,4 @@
 <?php include 'about-login-section.php' ?>
 <?php include 'contact-section.php' ?>
 <?php include 'footer-section.php' ?>
+<?php include 'script-files.php' ?>

@@ -134,5 +134,5 @@
     </div>
     <!-- /.row -->
 </section>
-<?php include 'footer-section.php' ?>
+<?php include 'script-files.php' ?>
     
