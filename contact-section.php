@@ -1,5 +1,5 @@
 <section>
-	<div id="contact" class="container-fluid bg-grey">
+	<div id="contact" class="container" >
   <h1>CONTACT</h1>
   <div class="row">
     <div class="col-sm-5">

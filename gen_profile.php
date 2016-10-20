@@ -1,5 +1,5 @@
 <?php include 'header-section.php' ?>
-<div class="row navbar-fixed-top" style="background-color:#222333">
+<div class="row navbar-fixed-top" style="background-color:#fff">
     	<div class="col-lg-3">
     		<a class="navbar-brand" href="index.php"><img class="" style="width:230px; height:81px; " src="./images/logo3.png" alt="Digiskool"></a>
     	</div>
